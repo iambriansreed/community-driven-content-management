@@ -4,13 +4,13 @@ Many times when I want to learn something new or become an expert in a particula
  
 I was very comfortable in WordPress but wanted to stretch my understanding of Angular. The event attendees and volunteers were happy with the site, however I noticed that the site didn’t get updated very often. The website had lots of content. Speakers, volunteers, and sponsors would ask for updates and the content editors, usually the already overtaxed organizers, would then update the site when they got a free moment. 
 
-### Content Entry Choke Point
+## Content Entry Choke Point
 
 That choke point of content entry is a pattern well established in the history of CMSs. For most applications and websites it’s not a big deal. When you have data on 50 different people, giving 50 different talks and the updates are very time sensitive the choke point it much more obvious.
  
 The next Revolution Conference rolled around and I decided I would volunteer my time again. I wanted to expand my expertise in Node.js and made that backend decision quickly. I wanted to avoid WordPress and any other traditional CMS altogether. I knew I didn’t want to manage the content in fact I wanted anyone to be able to update the website.
  
-### Source Control as a CMS
+## Source Control as a CMS
 
 Eventually the idea of using a web based source control solution as a repository of content dawned on me. Given that Revolution Conf is a conference geared towards professional software developers I knew most of the speakers and attendees worked with Github on a daily basis. Any content I had already added to the website I pulled out and began to structure into a series of JSON, Markdown, images, and directories.
  
