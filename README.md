@@ -12,9 +12,9 @@ The next Revolution Conference rolled around and I decided I would volunteer my 
  
 ## Source Control as a CMS
 
-Eventually the idea of using a web based source control solution as a repository of content dawned on me. Given that Revolution Conf is a conference geared towards professional software developers I knew most of the speakers and attendees worked with Github on a daily basis. Any content I had already added to the website I pulled out and began to structure into a series of JSON, Markdown, images, and directories.
- 
-Organization of the content just fell into place. Content that didn’t have rich text or images got a single JSON file. More complicated content got a directory for each type then a subdirectory for each item with may contain images, JSON, or markdown. I created a parsing tool which pulls the content down from the Github repo and converts the content into easily consumable data. The process of updating content follows the same path as contributing to an open source project on Github.
+After some thought, the idea of using a web-based source control solution as a repository of content dawned on me. Given that Revolution Conference is geared toward professional software developers, I knew that most of the speakers and attendees worked with GitHub on a daily basis. As I worked, I began to structure any content I had already added to the website into a series of JSON, Markdown, images, and directories.
+
+After that, organization of the content just fell into place. Content that didn’t have rich text or images got a single JSON file. More complicated content got a directory for each type, as well as a subdirectory for each item that contained images, JSON, or markdown. I created a parsing tool that pulled the content down from the GitHub repo and converted the content into easily consumable data. The process of updating content followed the same path as contributing to an open source project on GitHub.
 
 ## Community Drove the Content
 
